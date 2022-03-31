@@ -11,20 +11,20 @@ class Produto {
         $this->preco = $preco;
     }
 
-    function getDescricao() {
+    function getDescricao() : string {
         return $this->descricao;
     }
-    function getEstoque() {
+    function getEstoque() : int {
         return $this->estoque;
     }
-    function getPreco() {
+    function getPreco() : int {
         return $this->preco;
     }
     function getFabricante() {
         return $this->fabricante;
     }
 
-    function setFabricante($fabricante) {
+    function setFabricante(Fabricante $fabricante) {
         $this->fabricante = $fabricante;
     }
 }

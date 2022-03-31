@@ -1,8 +1,8 @@
 <?php
 class Fabricante {
-    private string $nome;
-    private string $endereco;
-    private string $documento;
+    private $nome;
+    private $endereco;
+    private $documento;
 
     function __construct($nome, $endereco, $documento) {
         $this->nome = $nome;
